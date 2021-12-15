@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<usuarios>
+	<usuario>
+		<ci>55</ci>
+		<nombreusuario>Pao</nombreusuario>
+		<contraseña>pao</contraseña>
+		<rol>facultad</rol>
+	</usuario>
+	<usuario>
+		<ci>1235463545</ci>
+		<nombreusuario>Pepito1</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Banco</rol>
+	</usuario>
+	<usuario>
+		<ci>58909834</ci>
+		<nombreusuario>Pepito2</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Administrador</rol>
+	</usuario>
+
+	<usuario>
+		<ci>11</ci>
+		<nombreusuario>Sofia</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+
+	<usuario>
+		<ci>22</ci>
+		<nombreusuario>22</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+
+	<usuario>
+		<ci>33</ci>
+		<nombreusuario>33</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+
+	<usuario>
+		<ci>44</ci>
+		<nombreusuario>44</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+
+	<usuario>
+		<ci>1234567</ci>
+		<nombreusuario>1234567</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+
+	<usuario>
+		<ci>1111111</ci>
+		<nombreusuario>1111111</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+	<usuario>
+		<ci>2222222</ci>
+		<nombreusuario>2222222</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+
+	<usuario>
+		<ci>3333333</ci>
+		<nombreusuario>3333333</nombreusuario>
+		<contraseña>123456</contraseña>
+		<rol>Estudiante</rol>
+	</usuario>
+</usuarios>

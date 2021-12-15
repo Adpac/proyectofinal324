@@ -1,0 +1,14 @@
+<flujoscondicionantes>
+<flujocondicionante>
+		<flujo>F1</flujo>
+		<proceso>P4</proceso>
+		<si>P5</si>
+		<no>P6</no>
+</flujocondicionante>
+<flujocondicionante>
+		<flujo>F1</flujo>
+		<proceso>P18</proceso>
+		<si>P17</si>
+		<no>P19</no>
+</flujocondicionante>
+</flujoscondicionantes>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<bpmflujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P1</proceso>
+		<tipo>I</tipo>		
+		<rol>Facultad</rol>
+		<procesosiguiente>P2</procesosiguiente>	
+		<formulario>listas</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P2</proceso>
+		<tipo>P</tipo>		
+		<rol>Facultad</rol>
+		<procesosiguiente>P3</procesosiguiente>	
+		<formulario>resolucion</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P3</proceso>
+		<tipo>P</tipo>		
+		<rol>Estudiante</rol>
+		<procesosiguiente>P4</procesosiguiente>	
+		<formulario>verResolucion</formulario>
+	</flujoproceso>
+//condicionante
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P4</proceso>
+		<tipo>C</tipo>		
+		<rol>Estudiante</rol>
+		<formulario>condicionante</formulario>
+	</flujoproceso>
+	
+	
+	
+	
+	
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P6</proceso>
+		<tipo>P</tipo>		
+		<rol>Estudiante</rol>
+		<procesosiguiente>P13</procesosiguiente>	
+		<formulario>generarCPT</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P13</proceso>
+		<tipo>P</tipo>		
+		<rol>Banco</rol>
+		<procesosiguiente>P14</procesosiguiente>	
+		<formulario>Orden_de_pago_CPT</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P14</proceso>
+		<tipo>P</tipo>		
+		<rol>Banco</rol>
+		<procesosiguiente>P15</procesosiguiente>	
+		<formulario>EnviarnotCPT</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P15</proceso>
+		<tipo>P</tipo>		
+		<rol>Estudiante</rol>
+		<procesosiguiente>P16</procesosiguiente>	
+		<formulario>RecibirCPTestudiante</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P16</proceso>
+		<tipo>P</tipo>		
+		<rol>Estudiante</rol>
+		<procesosiguiente>P17</procesosiguiente>	
+		<formulario>pagarCPT</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P17</proceso>
+		<tipo>P</tipo>		
+		<rol>Estudiante</rol>
+		<procesosiguiente>P18</procesosiguiente>	
+		<formulario>confirmacionpago</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P18</proceso>
+		<tipo>C</tipo>		
+		<rol>Estudiante</rol>
+			
+		<formulario>ifestudiantepago</formulario>
+	</flujoproceso>
+	<flujoproceso>
+		<flujo>F1</flujo>
+		<proceso>P19</proceso>
+		<tipo>P</tipo>		
+		<rol>Estudiante</rol>
+		<procesosiguiente>P20</procesosiguiente>	
+		<formulario>aceptarpago</formulario>
+	</flujoproceso>
+</bpmflujoproceso>
